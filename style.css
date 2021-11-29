@@ -1,0 +1,192 @@
+* {
+  	/* box-sizing: border-box; */
+  	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  	/*font-size: 16px; */
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+body{
+	margin: 1em auto;
+	max-width: 45em;
+	padding:0 .62em;
+	font:1.2em/1.62;
+}
+h1,h2,h3 {
+	line-height:1.2;
+}
+.topbar {
+  	border-radius: 5px;
+	background-color: #479;
+  	height: 100px;
+  	width: 100%;
+  	border: 0;
+	color: #fff;
+	text-align: center;
+}
+.topbar a { padding: 10px; }
+.topbar a:link { color: #fff; }
+.topbar a:hover { color: #ef0; }
+.topbar a:visited { color: #fff; }
+.topbar div h1, .topbar div a {
+  	/* display: inline-flex; */
+  	align-items: center;
+}
+.read .create {
+  	display: inline-block;
+  	text-decoration: none;
+  	background-color: #38b673;
+  	font-weight: bold;
+  	font-size: 14px;
+  	color: #FFFFFF;
+  	padding: 10px 15px;
+  	margin: 15px 0;
+	border-radius: 3px;
+}
+.read .create:hover {
+  	background-color: #32a367;
+}
+.read .pagination {
+	border-radius: 5px;
+  	display: flex;
+  	justify-content: flex-end;
+}
+.read .pagination a {
+  	display: inline-block;
+  	text-decoration: none;
+  	background-color: #aaa;
+  	font-weight: bold;
+  	color: #FFFFFF;
+  	padding: 5px 10px;
+  	margin: 15px 0 15px 5px;
+}
+.read .pagination a:hover {
+  	background-color: #999;
+}
+.read table {
+	font-size: 12px;
+	max-width: 45em;
+  	padding-top: 30px;
+  	border-collapse: collapse;
+}
+.read table thead {
+	border-radius: 5px;
+  	background-color: #ebeef1;
+  	border-bottom: 1px solid #d3dae0;
+}
+.read table thead td {
+  	padding: 10px;
+  	font-weight: bold;
+  	color: #767779;
+  	font-size: 14px;
+}
+.read table tbody tr {
+  	border-bottom: 1px solid #d3dae0;
+}
+.read table tbody tr:nth-child(even) {
+  	background-color: #fbfcfc;
+}
+.read table tbody tr:hover {
+  	background-color: #376ab7;
+}
+.read table tbody tr:hover td {
+  	color: #FFFFFF;
+}
+.read table tbody tr:hover td:nth-child(1) {
+  	color: #FFFFFF;
+}
+.read table tbody tr td {
+  	padding: 10px;
+}
+.read table tbody tr td:nth-child(1) {
+  	color: #a5a7a9;
+}
+.read table tbody tr td.actions {
+  	padding: 8px;
+  	text-align: right;
+}
+.read table tbody tr td.actions .edit, .read table tbody tr td.actions .trash {
+  	display: inline-flex;
+  	text-align: right;
+  	text-decoration: none;
+  	color: #FFFFFF;
+  	padding: 10px 12px;
+}
+.read table tbody tr td.actions .trash {
+  	background-color: #b73737;
+	border-radius: 5px;
+}
+.read table tbody tr td.actions .trash:hover {
+  	background-color: #a33131;
+}
+.read table tbody tr td.actions .edit {
+  	background-color: #37afb7;
+	border-radius: 5px;
+}
+.read table tbody tr td.actions .edit:hover {
+  	background-color: #319ca3;
+}
+.update form {
+  	padding: 15px 0;
+  	display: flex;
+  	flex-flow: wrap;
+}
+.update form label {
+  	display: inline-flex;
+  	width: 400px;
+  	padding: 10px 0;
+  	margin-right: 25px;
+}
+.update form input select {
+  	padding: 10px;
+  	width: 400px;
+  	margin-right: 25px;
+  	margin-bottom: 15px;
+  	border: 1px solid #cccccc;
+}
+.update form input[type="submit"] {
+  	display: block;
+	border-radius: 5px;
+  	background-color: #38b673;
+  	border: 0;
+  	font-weight: bold;
+  	font-size: 14px;
+  	color: #FFFFFF;
+  	cursor: pointer;
+  	width: 200px;
+	margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+  	background-color: #32a367;
+}
+.update form input[type="reset"] {
+  	display: block;
+	border-radius: 5px;
+  	background-color: #aaa;
+  	border: 0;
+  	font-weight: bold;
+  	font-size: 14px;
+  	color: #FFFFFF;
+  	cursor: pointer;
+  	width: 200px;
+	margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+  	background-color: #888;
+}
+
+.delete .yesno {
+  	display: flex;
+}
+.delete .yesno a {
+	border-radius: 5px;
+  	display: inline-block;
+  	text-decoration: none;
+  	background-color: #38b673;
+  	font-weight: bold;
+  	color: #FFFFFF;
+  	padding: 10px 15px;
+  	margin: 15px 10px 15px 0;
+}
+.delete .yesno a:hover {
+  	background-color: #32a367;
+}
